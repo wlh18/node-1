@@ -8,7 +8,7 @@ HTTP stands for Hyper Text Transfer Protocol and it is the protocol we follow wh
 
 ### Client 
 
-This is usually a personal computer that talks to a server through internet.
+This is usually a personal computer that talks to a server through the internet.
 
 The client is also known as the `front-end` part of our application.
 
@@ -32,9 +32,9 @@ Javascript has been around since 1995 and for a while it was only used inside of
 
 This meant that developers were having to code in multiple languages to create a front-end and back-end to their applications.
 
-When Node came out, it allowed developers to write Javascript code that runs directly on the a computer process itself,rather than being confined to a browser environment. This means that Node can be used to write server-side applications that have full access to the operating system, file system, etc.
+When Node came out, it allowed developers to write Javascript code that runs directly on the computer process itself, rather than being confined to a browser environment. This means that Node can be used to write server-side applications that have full access to the operating system, file system, etc.
 
-Node was written in `C`, `C++`, and `Javascript`. It was built on top of the `V8 Javascript` engine. This is the same engine that browsers like `Google Chrome` uses.
+Node was written in `C`, `C++`, and `Javascript`. It was built on top of the `V8 Javascript` engine. This is the same engine that browsers like `Google Chrome` use.
 
 ### Node In The Terminal
 
@@ -56,11 +56,11 @@ We can also execute a JS file by running the terminal command
 $ node "name of file to execute"
 ```
 
-It's important to keep note that this works similar to `REPL` where only the last item will be return, unless we are to console log values.
+It's important to keep note that this works similar to `REPL` where only the last item will be returned, unless we are to console.log values.
 
 ### Nodemon
 
-We can use to `nodemon` to constantly watch our file to execute it when theres a resfresh.
+We can use `nodemon` to constantly watch our file to execute it when theres a resfresh.
 
 Install nodemon globally:
 
@@ -109,7 +109,7 @@ This file will look something like this:
 
 One of the primary uses of Node is to act as a `server`. 
 
-A server is will receive a request then perform some logic and return a response.
+A server will receive a request then perform some logic and return a response.
 
 `Express` is the most popular framework we can use to build a server with node.
 
@@ -129,7 +129,7 @@ REFER TO THE `serverSetup.js` FILE FOR MORE INFORMATION ABOUT SETTING UP EXPRESS
 
 Endpoints are what we use to create a way for a front end application to make requests to our server.
 
-To create an endpoint, we will use the object returned from `express()`. This object will have the methods we can use to receieve specifc `RESTful Requests`.
+To create an endpoint, we will use the object returned from `express()`. This object will have the methods we can use to receieve specific `RESTful Requests`.
 
 Let's look at the syntax for one:
 
@@ -174,7 +174,7 @@ app.get('/api/users/:id, (req, res) => {
 });
 ```
 
-Using the colon is like telling javascript to treat it as a placeholder, and what ever is sent through we can access it on the `req.params` object.
+Using the colon is like telling javascript to treat it as a placeholder, and whatever is sent through we can access it on the `req.params` object.
 
 `req.query` This is the object that we can use to get data from the queries of a request.
 
@@ -203,7 +203,7 @@ This object will have built in methods that we can use to add information to the
 
 #### Sending A Response
 
-`res.send()` is a function that we can use so what ever is passed in as an argument to function will be sent back as the `response`.
+`res.send()` is a function that we can use so whatever is passed in as an argument to the function will be sent back as the `response`.
 
 ```javascript
 res.send('Hello');
