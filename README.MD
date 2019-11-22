@@ -2,6 +2,10 @@
 
 In this lecture we talk about Node.
 
+## Lecture Slides
+
+https://slides.com/mattbodily/deck-77e13a
+
 ## HTTP Review
 
 HTTP stands for Hyper Text Transfer Protocol and it is the protocol we follow when making requests and receiving responses from a client to a server.
