@@ -6,6 +6,45 @@ In this lecture we talk about Node.
 
 https://slides.com/matias_perez/node-one
 
+# Student Learning Objectives
+
+## Objectives
+
+### Node
+
+* Student can create an index.js file
+* Student can run a javascript file using node
+* Student can run a javascript file using nodemon
+* Student can describe that node is the V8 javascript engine
+* Student can require and use other files in node
+
+### Servers
+
+* Student can describe the role of servers in a client-server model
+* Student can identify the parts of code that listen to external requests
+
+### NPM
+
+* Student can npm init
+* Student can npm install
+* Student can npm install --save
+* Student can describe the role of a package.json file
+* Student can describe the purpose of the node_modules folder
+* Student can .gitignore node_modules
+
+### Express
+
+* Student can install and require express
+* Student can start a basic express server by creating an app and listening on a port
+* Student can write the handler function with the correct parameters `req`, `res` and `next`
+* Student can access url parameters on req.params
+* Student can set up an endpoint path to expect multiple `params`
+* Student can use req.query
+* Student can send data back with res.send and res.json
+* Student can set a status code with res.status
+
+# Lecture Notes
+
 ## HTTP Review
 
 HTTP stands for Hyper Text Transfer Protocol and it is the protocol we follow when making requests and receiving responses from a client to a server.
