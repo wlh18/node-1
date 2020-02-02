@@ -1,6 +1,6 @@
 # Node One
 
-In this lecture we talk about Node.
+In this lecture we talk about Node, Express, and NPM.
 
 ## Lecture Slides
 
