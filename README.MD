@@ -261,3 +261,11 @@ We can set custom status codes for the response by using the `.status()` method 
 ```javascript
 res.status(200).send(users);
 ```
+
+# Node One Mini-Project
+
+None
+
+# Node One Afternoon-Project
+
+https://github.com/DevMountain/node-1-afternoon
