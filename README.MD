@@ -4,7 +4,7 @@ In this lecture we talk about Node.
 
 ## Lecture Slides
 
-https://slides.com/mattbodily/deck-77e13a
+https://slides.com/matias_perez/node-one
 
 ## HTTP Review
 
