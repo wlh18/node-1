@@ -269,3 +269,51 @@ None
 # Node One Afternoon-Project
 
 https://github.com/DevMountain/node-1-afternoon
+
+---
+
+# Additional Resources
+*Because some of these topics are more conceptual than others, they might not have as many direct resources - like tutorials - but will still have articles or videos explaining them on a basic level*
+
+
+## Node
+
+### Video Resource
+https://www.youtube.com/watch?v=pU9Q6oiQNd0 - explanation of what Nodejs is and what it's used for
+
+### Other Resources
+https://nodejs.org/en/docs/guides/ - guides section on nodejs.org, great for reference if you're doing anything you haven't done before in node
+
+https://en.wikipedia.org/wiki/Node.js - great definition of what Node is and why it was built/what it is used for
+
+https://www.tutorialsteacher.com/nodejs/nodejs-tutorials - more tutorials on basic node functionality
+
+## Servers
+
+### Video Resource
+
+https://www.youtube.com/watch?v=CDxaRfwzFrs - what is a server and how do they work?
+
+## NPM 
+
+### Video Resource
+https://www.youtube.com/watch?v=ZNbFagCBlwo - very short video on npm
+
+### Other Resources
+https://docs.npmjs.com/ - docs
+
+https://www.tutorialspoint.com/nodejs/nodejs_npm.htm - good reference for npm syntax and terminal commands
+
+https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/ - "An Absolute Beginner's Guide to Using npm"
+
+## Express
+
+### Video Resource
+https://www.youtube.com/watch?v=45dAt9Gz8rE - good entry level express video
+
+### Other Resources
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs - multiple resources including step-by-step tutorials
+
+https://expressjs.com/ - docs on expressjs that might go a bit more in-depth than you want but really goes into what you can do with express
+
