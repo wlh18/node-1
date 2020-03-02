@@ -225,7 +225,7 @@ We will not add any extra information to our `path` when using a query, unlike p
 
 ```javascript
 // front end request w/ query
-axios.get('/api/users/?name=tayte)
+axios.get('/api/users?name=tayte)
 
 // back end endpoint
 app.get('/api/users', (req, res) => {
