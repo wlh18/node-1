@@ -211,7 +211,10 @@ The `req` object is an object that will contain information about the incoming r
 We declare the param variable to use in the `path` of our endpoint. We will prefix the param with a colon.
 
 ```javascript
-app.get('/api/users/:id, (req, res) => {
+// front end request w/ parameter
+axios.get('/api/users/1')
+
+app.get('/api/users/:id', (req, res) => {
     // we can access what ever info is sent through the id param
     console.log(req.params.id)
 });
@@ -225,7 +228,9 @@ We will not add any extra information to our `path` when using a query, unlike p
 
 ```javascript
 // front end request w/ query
-axios.get('/api/users?name=tayte)
+axios.get('/api/users?name=tayte')
+// front end request w/ multiple queries
+axios.get('/api/users?name=tayte&age=27')
 
 // back end endpoint
 app.get('/api/users', (req, res) => {
@@ -233,6 +238,7 @@ app.get('/api/users', (req, res) => {
 
     // we can access the name tayte from the query using the query obj
     console.log(req.query.name) // this will log tayte
+    console.log(req.query.age) // this will log 27
 })
 
 ```
