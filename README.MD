@@ -2,13 +2,11 @@
 
 In this lecture we talk about Node, Express, and NPM.
 
-## Lecture Slides
+Lecture Slides: https://slides.com/dmweb/node-one
 
-https://slides.com/matias_perez/node-one
+Afternoon Project: https://github.com/DevMountain/node-1-afternoon
 
-# Student Learning Objectives
-
-## Objectives
+## Student Learning Objectives
 
 ### Node
 
